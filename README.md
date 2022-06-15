@@ -5,8 +5,9 @@ The simulation can produce the top view in this code and preserve it for further
 ### The Step will be followed
 
 1. Go to where carla is installed 
-2. Run the CarlaUE4:    ./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -quality-level=Low -Resx=640 -ResY=480 -prefernvidia
-3. Run the code:  python automatic_task.py 
+2. Run the CarlaUE4:   
+``` ./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -quality-level=Low -Resx=640 -ResY=480 -prefernvidia ```
+4. Run the code:  python automatic_task.py 
 
 ```
  ./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -quality-level=Low -Resx=640 -ResY=480 -prefernvidia
